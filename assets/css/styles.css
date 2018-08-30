@@ -1,0 +1,70 @@
+body {
+    background-image: url("../images/leaves-pattern.png");   
+}
+
+h1 {
+    padding:10px 10px 20px 10px;
+    margin: 0;
+}
+
+a:hover {
+    transform: scale(1.05);
+    color: #4aaaa5 !important;
+}
+
+.bg-teal {
+    background-color: #4aaaa5;
+}
+
+.text-teal {
+    color: #4aaaa5
+}
+
+#footer-border {
+    border-top: 10px solid;
+    border-color: #4aaaa5;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 50%);
+    color: #4aaaa5;
+    opacity: 40%;
+    width: 530px;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+    #centered {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #centered {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #centered {
+        width: 490px;
+    }
+    .border-right {
+        border-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #centered {
+        width: 100%;
+        position: inherit;
+        transform: translate(0%, 0%);
+        background: inherit;
+    }
+}
